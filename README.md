@@ -13,6 +13,22 @@
 
 # 使用
 1.  添加依赖。
+    方法一：
+    maven依赖：
+    ```
+    <dependency>
+      <groupId>com.hut.reoger.pictruecarousel</groupId>
+      <artifactId>pictruecarousel</artifactId>
+      <version>1.0</version>
+      <type>pom</type>
+    </dependency>
+    ```
+    方法二：
+    gradle依赖：
+    ```
+    compile 'com.hut.reoger.pictruecarousel:pictruecarousel:1.0'
+    ```
+
 
 2.在需要的放置图片轮播的地方放置：、
 ```
