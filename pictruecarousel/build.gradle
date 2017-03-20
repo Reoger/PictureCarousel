@@ -4,6 +4,9 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
 
+
+
+
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 25
@@ -29,3 +32,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
 }
+
+//apply plugin: 'com.novoda.bintray-release'//上传jcenter
+apply from: "bintrayUpload.gradle"

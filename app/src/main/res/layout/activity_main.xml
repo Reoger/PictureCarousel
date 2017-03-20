@@ -7,8 +7,7 @@
     <com.hut.reoger.pictruecarousel.imageBanner
         android:id="@+id/ban"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:auto_loop="false"
+        android:layout_height="170dp"
         app:time_interval="1000"
         />
 
